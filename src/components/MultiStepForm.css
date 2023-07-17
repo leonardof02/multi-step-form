@@ -12,11 +12,11 @@
     right: 0;
     top: 78vh;
     width: 100%;
-    background-color: var(--alabaster);
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
+    background: transparent;
 }
 
 @media screen and (min-width: 700px) {

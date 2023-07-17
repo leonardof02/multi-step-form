@@ -21,17 +21,17 @@ const plans = [
     {
         type: "Arcade",
         price: 9,
-        imgUrl: "../src/assets/images/icon-arcade.svg"
+        imgUrl: "/multi-step-form/assets/images/icon-arcade.svg"
     },
     {
         type: "Advanced",
         price: 12,
-        imgUrl: "../src/assets/images/icon-advanced.svg"
+        imgUrl: "/multi-step-form/assets/images/icon-advanced.svg"
     },
     {
         type: "Pro",
         price: 15,
-        imgUrl: "../src/assets/images/icon-pro.svg"
+        imgUrl: "/multi-step-form/assets/images/icon-pro.svg"
     }
 ]
 
@@ -155,7 +155,7 @@ function MultiStepForm() {
                 setErrors( errors )
         }
 
-        if( ! errors || Object.keys(errors as Object).length === 0 )
+        if( ! errors || Object.keys(errors as object).length === 0 )
             setCurrentStep( step );
     }
 

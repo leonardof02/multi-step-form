@@ -2,7 +2,7 @@
 
 .steps-container {
     height: 170px;
-    background-image: url("../assets/images/bg-sidebar-mobile.svg");
+    background-image: url("/public/assets/images/bg-sidebar-mobile.svg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -17,7 +17,7 @@
         width: 200px;
         flex-direction: column;
         justify-content: flex-start;
-        background-image: url("../assets/images/bg-sidebar-desktop.svg");
+        background-image: url("/public/assets/images/bg-sidebar-desktop.svg");
         background-size: 100%;
         border-radius: 10px;
         padding: 10px;

@@ -4,8 +4,8 @@ import "./StepButton.css";
 interface StepButtonProps {
     active: boolean,
     handleClick?: MouseEventHandler<HTMLButtonElement>,
-    step: Number,
-    stepName?: String
+    step: number,
+    stepName?: string
 }
 
 function StepButton({ active, step, stepName, handleClick }: StepButtonProps) {

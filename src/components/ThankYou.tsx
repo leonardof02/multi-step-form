@@ -2,7 +2,7 @@ import "./ThankYou.css";
 
 export default function ThankYou() {
     return <div className="thank-you">
-        <img src="../src/assets/images/icon-thank-you.svg" alt="Thank You!" />
+        <img src="/multi-step-form/assets/images/icon-thank-you.svg" alt="Thank You!" />
         <h2>Thank You!</h2>
         <p>
             Thanks for confirming your subscription! We hope you have fun
